@@ -13,9 +13,14 @@ const contains2ClassEle = document.querySelector('.contains2')
 console.log(contains2ClassEle.classList.contains('blue'))
 
 const toggleClassEle = document.querySelector('.toggle')
+// Manually:
+/*
 if(toggleClassEle.classList.contains('red')) {
     toggleClassEle.classList.remove('red')
 } else {
     toggleClassEle.classList.add('red')
 }
+*/
+// By using toggle() method:
+toggleClassEle.classList.toggle('red')
 console.log(toggleClassEle)
